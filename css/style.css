@@ -34,6 +34,7 @@ h2 {
     padding-left: 3px;
     color: red;
     font-size: 12px;
+    line-height: 18px;
 }
 
 /* /COMMON */
@@ -41,14 +42,14 @@ h2 {
 /* HEADER */
 
 header {
-    height: 100px;
+    height: 80px;
     background-color: #edf2f7;
     box-shadow: 0px 5px 10px rgb(216, 216, 216);
 }
 
 header > #logo {
     display: block;
-    height: 100px;
+    height: 80px;
     margin: auto;
 }
 /* /HEADER */
@@ -136,6 +137,10 @@ header > #logo {
     border-radius: 12px;
     color: #fff;
     font-size: 14px;
+}
+
+.not-done {
+    text-decoration: none;
 }
 
 
