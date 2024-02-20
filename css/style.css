@@ -1,5 +1,21 @@
+/* RESET CSS */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* HEADER */
+
+header {
+    height: 100px;
+    background-color: #edf2f7;
+    box-shadow: 0px 5px 10px rgb(216, 216, 216);
+}
+
+header > #logo {
+    display: block;
+    height: 100px;
+    margin: auto;
+}
+/* /HEADER */
