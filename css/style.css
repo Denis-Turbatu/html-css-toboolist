@@ -11,6 +11,10 @@ h2 {
     font-family: Arial, sans-serif;
 }
 
+hr{
+    border: solid 1px #fff;
+}
+
 .check-mark {
     display: inline-block;
     width: 18px;
@@ -37,19 +41,41 @@ h2 {
     line-height: 18px;
 }
 
+header, .bottom-container>ul>li>ul>.li-items-todo {
+    box-shadow: 0px 5px 10px rgb(216, 216, 216);
+}
+
+.editorial{
+    background-color: #09a9ed;
+}
+.q1-goal {
+    background-color: #ab5de6;
+}
+.recruiting {
+    background-color: #2cc6ab;
+}
+.mobile {
+    background-color: #ff9b00;
+}
+.website {
+    background-color: #ec4a9d;
+}
+.sales {
+    background-color: #a3d116;
+}
+
 /* /COMMON */
 
 /* HEADER */
 
 header {
-    height: 80px;
+    height: 70px;
     background-color: #edf2f7;
-    box-shadow: 0px 5px 10px rgb(216, 216, 216);
 }
 
 header > #logo {
     display: block;
-    height: 80px;
+    height: 70px;
     margin: auto;
 }
 /* /HEADER */
@@ -116,12 +142,12 @@ header > #logo {
 
 .bottom-container>ul>li>ul>.li-items-todo {
     background-color: #fff;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
-    line-height: 40px;
+    line-height: 50px;
     list-style-type: none;
     padding-left: 15px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .todo-list-object, .todo-list-description {
@@ -131,10 +157,9 @@ header > #logo {
 }
 
 .todo-list-description {
-    padding: 4px;
-    background-color: #14aaf5;
+    padding: 6px;
     border: none;
-    border-radius: 12px;
+    border-radius: 15px;
     color: #fff;
     font-size: 14px;
 }
