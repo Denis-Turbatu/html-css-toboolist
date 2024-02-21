@@ -15,33 +15,28 @@ hr{
     border: solid 1px #fff;
 }
 
-.check-mark {
+.mark {
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: solid 1px green;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     vertical-align: middle;
-    padding-left: 3px;
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+.check{
     color: green;
-    font-size: 12px;
-    line-height: 18px;
+    border: solid 1px green;
 }
 
-.cross-mark {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: solid 1px red;
-    border-radius: 50%;
-    vertical-align: middle;
-    padding-left: 3px;
+.cross {
     color: red;
-    font-size: 12px;
-    line-height: 18px;
+    border: solid 1px red;
 }
 
-header, .bottom-container>ul>li>ul>.li-items-todo {
+
+header, .todo-thing>.items {
     box-shadow: 0px 5px 10px rgb(216, 216, 216);
 }
 
@@ -120,7 +115,7 @@ header, .bottom-container>ul>li>ul>.li-items-todo {
     font-weight: 600;
 }
 
-.daily-task>li>ul>.li-items-todo {
+.todo-thing>.items {
     background-color: #fff;
     border-radius: 5px;
     list-style-type: none;
