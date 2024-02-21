@@ -7,7 +7,7 @@
 
 /* COMMON */
 
-h2 {
+body {
     font-family: Arial, sans-serif;
 }
 
@@ -64,21 +64,12 @@ header, .bottom-container>ul>li>ul>.li-items-todo {
     background-color: #a3d116;
 }
 
-/* /COMMON */
-
 /* HEADER */
 
-header {
-    height: 70px;
-    background-color: #edf2f7;
+.header {
+    width: 100%;
+    text-align: center;
 }
-
-header > #logo {
-    display: block;
-    height: 70px;
-    margin: auto;
-}
-/* /HEADER */
 
 /* MAIN */
 
@@ -90,73 +81,60 @@ header > #logo {
 }
 
 /* TOP-CONTAINER */
-.top-container{
-    height: 80px;
-    
-}
-
-.div-form{
-   width: 324px;
-   line-height: 80px;
-   margin: auto;
-}
+ .top-container{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+} 
 
 .input-todo-object, .submit-btn {
-    height: 35px;
     vertical-align: middle;
     border-radius: 5px;
+    padding: 9px;
 }
 
 .input-todo-object{
-    width: 250px;
-    padding-left: 10px;
     border: solid 1px grey;
     font-size: 16px;
 }
 
 .submit-btn{
-    width: 70px;
     background-color: #14aaf5;
     border: none;
     color: #fff;
 }
-/* /TOP CONTAINER */
 
 /* BOTTOM-CONTAINER */
 
-.bottom-container{
-    width: 90%;
-    margin: 0 auto;
-    padding: 50px 0 30px;
+.daily-task{
+    padding: 50px;
 }
 
-.bottom-container > ul > li{
+.daily-task > li{
     list-style-type: none;
     color: #434851;
 }
 
-.bottom-container>ul>li>h2 {
+.daily-task li>h3 {
     font-size: 20px;
     font-weight: 600;
 }
 
-.bottom-container>ul>li>ul>.li-items-todo {
+.daily-task>li>ul>.li-items-todo {
     background-color: #fff;
-    height: 50px;
     border-radius: 5px;
-    line-height: 50px;
     list-style-type: none;
-    padding-left: 15px;
+    padding: 20px;
     margin: 10px 0;
 }
 
-.todo-list-object, .todo-list-description {
+.object, .tag {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: line-through black;
     vertical-align: middle;
 }
 
-.todo-list-description {
+.tag {
     padding: 6px;
     border: none;
     border-radius: 15px;
